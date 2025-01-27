@@ -91,7 +91,7 @@ const Login = () => {
             <Input
               type="text"
               value={input.adharcard}
-              name="password"
+              name="adharcard"
               onChange={changeEventHandler}
               placeholder="123456789012"
             ></Input>
