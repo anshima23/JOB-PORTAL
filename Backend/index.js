@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: process.env.NODE_ENV === "production" ? "https://your-deployed-frontend.com" : "http://localhost:5173",
+  origin: ["https://job-portal-11-wnse.onrender.com"],
   credentials: true,
 };
 app.use(cors(corsOptions));
