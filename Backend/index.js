@@ -44,11 +44,12 @@ app.use("/api/application", applicationRoute);
 // Serve Frontend in Production
 if (process.env.NODE_ENV === "production") {
   const dirpath = path.resolve();
-  app.use(express.static(path.join(dirpath, 'Frontend', 'dist')));
+  app.use(express.static(path.join(dirpath, 'Backend', 'Frontend', 'dist')));
   app.get('*', (req, res) => {
-    res.sendFile(path.join(dirpath, 'Frontend', 'dist', 'index.html'));
+    res.sendFile(path.join(dirpath, 'Backend', 'Frontend', 'dist', 'index.html'));
   });
 }
+
 
 // Start Server
 connectDB()
