@@ -11,6 +11,8 @@ import jobRoute from "./routes/job.route.js";
 import applicationRoute from "./routes/application.route.js";
 import path from "path";
 
+
+
 dotenv.config();
 
 const app = express();
