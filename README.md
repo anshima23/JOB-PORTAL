@@ -2,6 +2,12 @@
 
 Welcome to the Job Portal project! This project is a job portal application built using the MERN stack (MongoDB, Express, React, Node.js).
 
+---
+
+### 🚀 **Check This Project Live:** 👉 **[https://job-portal-ahjr.onrender.com](https://job-portal-ahjr.onrender.com)**
+
+---
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -14,13 +20,6 @@ Welcome to the Job Portal project! This project is a job portal application buil
 ## Project Overview
 
 This Job Portal application allows users to search and apply for jobs, as well as for employers to post job openings. The application is built using the MERN stack, which provides a robust and efficient development environment for full-stack applications.
-
-
----
-
-### 🚀 **Check This Project Live:** 👉 **[https://job-portal-ahjr.onrender.com](https://job-portal-ahjr.onrender.com)**
-
----
 
 
 ## Features
